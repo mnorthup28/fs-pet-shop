@@ -1,4 +1,8 @@
 [
   { "age": 7, "kind": "dog", "name": "fido" },
-  { "age": 5, "kind": "snake", "name": "Buttons" }
+  { "age": 22, "kind": "fish", "name": "smoky" },
+  { "age": 34, "name": "Fred Flinstone", "kind": "iguana" },
+  { "age": 4, "name": "cat", "kind": "parrot" },
+  { "age": 4, "name": "this is a vegetable", "kind": "carrot" },
+  { "age": 4, "name": "burt", "kind": "fish" }
 ]

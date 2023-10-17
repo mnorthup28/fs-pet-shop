@@ -6,7 +6,7 @@ const command = process.argv[2];
 // check if 3rd subcommand is "read"
 if (command === "read") {
   // read pets.json
-  fs.readFile("../pets.json", "utf-8", function (error, text) {
+  fs.readFile("../pets.json", "utf - 8", function (error, text) {
     // if readFile produces an error, throw is so Node will display the error
     // from the function vs a general syntax error (much more user friendly)
     if (error) {
@@ -20,7 +20,7 @@ if (command === "read") {
     // if no 4th subcommand is present after "read", display all the pets
     if (process.argv.length < 4) {
       console.log(pets);
-      process.exit(1); // stop without error
+      process.exit(); // stop without error
     }
     // convert from string to integer
     const indexNum = Number.parseInt(petIndex);
