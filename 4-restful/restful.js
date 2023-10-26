@@ -62,7 +62,7 @@ app.post("/pets", (req, res) => {
   const age = Number.parseInt(req.body.age); // make sure its a number
   const { kind, name } = req.body;
   // validate data from request body
-  if (!kind || !name || Number.isNaN(age)) {
+  if (!kind || !name || Number.isNaN(age) || null) {
     return res.sendStatus(400);
   }
   // create a new pet object
